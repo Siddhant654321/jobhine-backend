@@ -7,6 +7,7 @@ import morgan from "morgan";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import cloudinary from "cloudinary";
+import cors from 'cors'
 
 //public
 import { dirname } from "path";
@@ -37,6 +38,7 @@ app.use(express.static(path.resolve(__dirname, "./public")));
 
 app.use(cookieParser());
 app.use(express.json());
+app.use(cors())
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
