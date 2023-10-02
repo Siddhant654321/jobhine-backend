@@ -1,6 +1,6 @@
 import Wrapper from "../assets/wrappers/LandingPage";
 import main from "../assets/images/main.svg";
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import { Logo } from "../components";
 
@@ -16,9 +16,7 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit
-            aspernatur quibusdam voluptas facilis, assumenda pariatur veritatis
-            necessitatibus rem nam nulla eligendi, reprehenderit autem tempora!
+          Discover a hub where recruiters unveil promising positions to a network of dedicated professionals. Post, connect, and hire—the gateway to your organization's next chapter begins here.
           </p>
           <Link to="/register" className="btn register-link">
             Register
