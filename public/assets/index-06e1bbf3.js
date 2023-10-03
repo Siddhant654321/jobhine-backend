@@ -245,7 +245,8 @@ Error generating stack: `+a.message+`
   .logo {
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 50px !important;
+    height: 164px !important;
   }
   .btn-container {
     display: flex;
