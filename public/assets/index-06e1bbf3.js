@@ -725,8 +725,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     display: block;
     margin: 0 auto;
     margin-bottom: 1.38rem;
-    width: 50px !important;
-    height: 164px !important;
   }
   .form {
     max-width: 400px;
