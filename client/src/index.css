@@ -21,9 +21,9 @@ html {
   --primary-200: #87eaf2;
   --primary-300: #54d1db;
   --primary-400: #38bec9;
-  --primary-500: #2cb1bc;
+  --primary-500: #7330F9;
   --primary-600: #14919b;
-  --primary-700: #0e7c86;
+  --primary-700: #8f5afa;
   --primary-800: #0a6c74;
   --primary-900: #044e54;
 
@@ -76,6 +76,9 @@ html {
   --text-color: var(--grey-900);
   --background-secondary-color: var(--white);
   --text-secondary-color: var(--grey-500);
+
+  --toastify-icon-color-success: var(--primary-500) !important;
+  --toastify-color-progress-success: var(--primary-500) !important;
 }
 
 .dark-theme {
@@ -83,6 +86,8 @@ html {
   --background-color: var(--dark-mode-bg-color);
   --text-secondary-color: var(--dark-mode-text-secondary-color);
   --background-secondary-color: var(--dark-mode-bg-secondary-color);
+  --primary-500: #FFD83C;
+  --primary-700: #f7d754;
 }
 
 body {
@@ -183,6 +188,11 @@ ul {
 }
 
 /* buttons */
+
+.dark-theme .btn,
+.dark-theme .dropdown-btn{
+  color: #3f3f3f !important;
+}
 
 .btn {
   cursor: pointer;
