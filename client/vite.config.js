@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://jobhine.onrender.com/api",
+        target: "https://jobhine.tech/api",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
